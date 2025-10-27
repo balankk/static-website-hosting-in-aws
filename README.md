@@ -52,7 +52,44 @@ It showcases basic cloud deployment concepts suitable for beginners in **Cloud C
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::YOUR_BUCKET_NAME/*"
+      "Resource": "arn:aws:s3:::my-static-website7598/*"
     }
   ]
 }
+
+5. Access the Website
+
+Copy the endpoint URL from the static hosting section, e.g.
+
+http://my-static-website7598.s3-website-ap-south-1.amazonaws.com
+
+
+Open it in your browser to view your live website 🎉
+
+📸 Project Output
+
+The website displays a welcome message.
+
+A clickable button that shows “You clicked the button! 🚀”.
+
+Styled using CSS and deployed on AWS S3.
+
+🧩 Folder Structure
+my-static-website/
+├── index.html
+├── style.css
+└── script.js
+
+🧠 Learning Outcome
+
+Hands-on experience with AWS S3 static website hosting
+
+Understanding of bucket policies, public access, and content delivery
+
+Improved knowledge of cloud deployment workflows
+
+👨‍💻 Author
+
+Cloud & DevOps Enthusiast
+📧 Email: [boobalank18@gmail.com]
+🔗 LinkedIn: linkedin.com/in/boobalan-k-81a00b289
